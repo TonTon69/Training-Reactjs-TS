@@ -1,0 +1,10 @@
+.footer {
+    background-color: #3b3d3e;
+    color: #fff;
+    padding: 20px;
+
+    &.light {
+        background-color: #f8f9fa;
+        color: #000;
+    }
+}
