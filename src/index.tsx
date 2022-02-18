@@ -8,7 +8,6 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 
 ReactDOM.render(
     <React.StrictMode>
-        {/* cơ chế định tuyến cho cả app */}
         <BrowserRouter>
             <ThemeProvider>
                 <App />

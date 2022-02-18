@@ -15,7 +15,7 @@ function Footer() {
     }, []);
 
     return (
-        <footer className={`${"footer"} ${theme}`}>
+        <footer className={`footer ${theme}`}>
             <Container>
                 <span>{time.toUTCString()}</span>
             </Container>

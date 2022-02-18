@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 
 function Todo() {
-    let params = useParams();
+    let { todoId } = useParams();
 
-    return <h4>Todo {params.todoId}</h4>;
+    return <h4>Todo {todoId}</h4>;
 }
 
 export default Todo;
